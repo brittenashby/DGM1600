@@ -1,0 +1,63 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(felix-mittermeier-Knwea-mLGAg-unsplash.jpg);
+  background-size: 100%;
+
+}
+
+header,
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1rem 0 2rem 0;
+  color: #ddd7ff;
+  font-family: "Georgia", Serif;
+}
+
+p {
+  font-size: 1em;
+  margin: 1rem 0 2rem 0;
+  color: white;
+  font-family: "Georgia", sans-serif;
+}
+
+li {
+  list-style-type: none;
+  padding: 5%;
+  font-family: "Georgia", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1b2159;
+}
+
+a:hover {
+  color: #2131c0;
+}
+
+nav {
+  border-radius: 5px;
+  padding-right: 0.75rem;
+  margin-left: 5rem;
+  background-color: #ddd7ff;
+}
+
+.container {
+  display: flex;
+}
+
+img {
+  margin-left: 8rem;
+  position: fixed;
+  border-radius: 5px;
+  margin-top: 2rem;
+}

@@ -1,0 +1,23 @@
+.senators {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5%;
+    font-family: "Georgia";
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+body {
+    background-image: url(charles-duck-unitas-hPq1nLfLgBY-unsplash.jpg);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+figcaption {
+    color: black;
+    background-color: white;
+}

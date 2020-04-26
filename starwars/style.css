@@ -1,0 +1,52 @@
+/* :root {
+  box-sizing: border-box;
+} */
+
+body {
+  background-image: url(starwarspeople.png);
+  /* overflow-x: hidden; */
+}
+
+/* a > img {
+  height: 18rem;
+  margin: 4px;
+} */
+
+h1 {
+  font-family: "Georgia", serif;
+  text-align: center;
+  color: #1d4f8f;
+  background-color: #fab479;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+
+button {
+  font-family: "Georgia";
+  font-size: 1.8rem;
+  background-color: #1d4f8f;
+  color: #eadecf;
+  padding: 8px;
+  width: 30%;
+  margin-left: 2.6rem;
+  border-color: #fab479;
+}
+
+.gallery {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fde0b9;
+  margin: 0.75rem;
+}
+
