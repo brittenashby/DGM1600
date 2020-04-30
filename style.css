@@ -10,42 +10,13 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-  font-size: rem;
-  font-weight: 400;
-  line-height: 1.4;
-  font-family: "Georgia", serif;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-}
-
-@media (max-width: 28.75em) {
-  .nav {
-    justify-content: center;
-  }
-
-  .nav-list {
-    margin: 0 1rem;
-  }
-}
-
 #navbar {
-  /* make the content go to the center */
   justify-content: flex-end;
   display: flex;
   position: fixed;
   background-color: #ece2d8;
   width: 100%;
-  z-index: 1; /*this makes it so things don't overlap */
+  z-index: 1; 
 }
 
 #welcome-section {
