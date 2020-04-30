@@ -28,7 +28,7 @@ function populateNav(starships) {
     let listItem = document.createElement("li");
     listItem.textContent = starship.name;
 
-    anchorWrap.appendChild(listItem); //you need to add something to the DOM once you create it in JS
+    anchorWrap.appendChild(listItem);
     navList.appendChild(anchorWrap);
     nav.appendChild(navList);
   });
@@ -48,4 +48,4 @@ function populateShipView(shipData) {
 
 populateNav(starships);
 
-// addStarField(document.querySelector("body"), 1000);
+
